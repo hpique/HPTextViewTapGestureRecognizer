@@ -1,0 +1,7 @@
+language: objective-c
+before_script:
+  - brew update
+  - brew upgrade xctool
+script: 
+  - xctool -project HPTextViewTapGestureRecognizer.xcodeproj -scheme 'HPTextViewTapGestureRecognizer' -configuration Release -sdk iphonesimulator test
+  - xctool -project HPTextViewTapGestureRecognizer.xcodeproj -scheme 'HPTextViewTapGestureRecognizerDemo' -configuration Release -sdk iphonesimulator
