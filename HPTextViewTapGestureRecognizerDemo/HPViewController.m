@@ -49,9 +49,9 @@
     self.textView.attributedText = attributedText;
 }
 
--(void)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer handleTapOnURL:(NSURL*)url inRange:(NSRange)characterRange
+-(void)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer handleTapOnURL:(NSURL*)URL inRange:(NSRange)characterRange
 {
-    [[UIApplication sharedApplication] openURL:url];
+    [[UIApplication sharedApplication] openURL:URL];
 }
 
 -(void)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer handleTapOnTextAttachment:(NSTextAttachment*)textAttachment inRange:(NSRange)characterRange
