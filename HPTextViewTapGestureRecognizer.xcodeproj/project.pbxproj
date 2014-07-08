@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0A9C1CD196C740800105C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A9C1CC196C740800105C85 /* Foundation.framework */; };
+		A0A9C1D2196C740800105C85 /* HPTextViewTapGestureRecognizer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0A9C1D1196C740800105C85 /* HPTextViewTapGestureRecognizer.h */; };
+		A0A9C1D4196C740800105C85 /* HPTextViewTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A9C1D3196C740800105C85 /* HPTextViewTapGestureRecognizer.m */; };
+		A0A9C1DB196C740800105C85 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A9C1DA196C740800105C85 /* XCTest.framework */; };
+		A0A9C1DC196C740800105C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A9C1CC196C740800105C85 /* Foundation.framework */; };
+		A0A9C1DE196C740800105C85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A9C1DD196C740800105C85 /* UIKit.framework */; };
+		A0A9C1E1196C740800105C85 /* libHPTextViewTapGestureRecognizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A9C1C9196C740800105C85 /* libHPTextViewTapGestureRecognizer.a */; };
+		A0A9C1E7196C740800105C85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0A9C1E5196C740800105C85 /* InfoPlist.strings */; };
+		A0A9C1E9196C740800105C85 /* HPTextViewTapGestureRecognizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A9C1E8196C740800105C85 /* HPTextViewTapGestureRecognizerTests.m */; };
+		A0A9C1F7196C74A100105C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A9C1CC196C740800105C85 /* Foundation.framework */; };
+		A0A9C1F9196C74A100105C85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A9C1F8196C74A100105C85 /* CoreGraphics.framework */; };
+		A0A9C1FA196C74A100105C85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A9C1DD196C740800105C85 /* UIKit.framework */; };
+		A0A9C200196C74A100105C85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0A9C1FE196C74A100105C85 /* InfoPlist.strings */; };
+		A0A9C202196C74A100105C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A9C201196C74A100105C85 /* main.m */; };
+		A0A9C206196C74A100105C85 /* HPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A9C205196C74A100105C85 /* HPAppDelegate.m */; };
+		A0A9C209196C74A100105C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A9C207196C74A100105C85 /* Main.storyboard */; };
+		A0A9C20C196C74A100105C85 /* HPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A9C20B196C74A100105C85 /* HPViewController.m */; };
+		A0A9C20E196C74A100105C85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A9C20D196C74A100105C85 /* Images.xcassets */; };
+		A0A9C227196C7B7E00105C85 /* HPTextViewTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A9C1D3196C740800105C85 /* HPTextViewTapGestureRecognizer.m */; };
+		A0A9C229196C7DEB00105C85 /* chihuahua@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0A9C228196C7DEB00105C85 /* chihuahua@2x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0A9C1DF196C740800105C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A9C1C1196C740800105C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0A9C1C8196C740800105C85;
+			remoteInfo = HPTextViewTapGestureRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0A9C1C7196C740800105C85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A0A9C1D2196C740800105C85 /* HPTextViewTapGestureRecognizer.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A0A9C1C9196C740800105C85 /* libHPTextViewTapGestureRecognizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHPTextViewTapGestureRecognizer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A9C1CC196C740800105C85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0A9C1D0196C740800105C85 /* HPTextViewTapGestureRecognizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HPTextViewTapGestureRecognizer-Prefix.pch"; sourceTree = "<group>"; };
+		A0A9C1D1196C740800105C85 /* HPTextViewTapGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPTextViewTapGestureRecognizer.h; sourceTree = "<group>"; };
+		A0A9C1D3196C740800105C85 /* HPTextViewTapGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPTextViewTapGestureRecognizer.m; sourceTree = "<group>"; };
+		A0A9C1D9196C740800105C85 /* HPTextViewTapGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPTextViewTapGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A9C1DA196C740800105C85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A0A9C1DD196C740800105C85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A0A9C1E4196C740800105C85 /* HPTextViewTapGestureRecognizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HPTextViewTapGestureRecognizerTests-Info.plist"; sourceTree = "<group>"; };
+		A0A9C1E6196C740800105C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0A9C1E8196C740800105C85 /* HPTextViewTapGestureRecognizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPTextViewTapGestureRecognizerTests.m; sourceTree = "<group>"; };
+		A0A9C1F6196C74A100105C85 /* HPTextViewTapGestureRecognizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPTextViewTapGestureRecognizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A9C1F8196C74A100105C85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0A9C1FD196C74A100105C85 /* HPTextViewTapGestureRecognizerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HPTextViewTapGestureRecognizerDemo-Info.plist"; sourceTree = "<group>"; };
+		A0A9C1FF196C74A100105C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0A9C201196C74A100105C85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0A9C203196C74A100105C85 /* HPTextViewTapGestureRecognizerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HPTextViewTapGestureRecognizerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A0A9C204196C74A100105C85 /* HPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPAppDelegate.h; sourceTree = "<group>"; };
+		A0A9C205196C74A100105C85 /* HPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPAppDelegate.m; sourceTree = "<group>"; };
+		A0A9C208196C74A100105C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0A9C20A196C74A100105C85 /* HPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPViewController.h; sourceTree = "<group>"; };
+		A0A9C20B196C74A100105C85 /* HPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPViewController.m; sourceTree = "<group>"; };
+		A0A9C20D196C74A100105C85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0A9C228196C7DEB00105C85 /* chihuahua@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chihuahua@2x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0A9C1C6196C740800105C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A9C1CD196C740800105C85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A9C1D6196C740800105C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A9C1DB196C740800105C85 /* XCTest.framework in Frameworks */,
+				A0A9C1E1196C740800105C85 /* libHPTextViewTapGestureRecognizer.a in Frameworks */,
+				A0A9C1DE196C740800105C85 /* UIKit.framework in Frameworks */,
+				A0A9C1DC196C740800105C85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A9C1F3196C74A100105C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A9C1F9196C74A100105C85 /* CoreGraphics.framework in Frameworks */,
+				A0A9C1FA196C74A100105C85 /* UIKit.framework in Frameworks */,
+				A0A9C1F7196C74A100105C85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0A9C1C0196C740800105C85 = {
+			isa = PBXGroup;
+			children = (
+				A0A9C1CE196C740800105C85 /* HPTextViewTapGestureRecognizer */,
+				A0A9C1E2196C740800105C85 /* HPTextViewTapGestureRecognizerTests */,
+				A0A9C1FB196C74A100105C85 /* HPTextViewTapGestureRecognizerDemo */,
+				A0A9C1CB196C740800105C85 /* Frameworks */,
+				A0A9C1CA196C740800105C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0A9C1CA196C740800105C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0A9C1C9196C740800105C85 /* libHPTextViewTapGestureRecognizer.a */,
+				A0A9C1D9196C740800105C85 /* HPTextViewTapGestureRecognizerTests.xctest */,
+				A0A9C1F6196C74A100105C85 /* HPTextViewTapGestureRecognizerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0A9C1CB196C740800105C85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0A9C1CC196C740800105C85 /* Foundation.framework */,
+				A0A9C1DA196C740800105C85 /* XCTest.framework */,
+				A0A9C1DD196C740800105C85 /* UIKit.framework */,
+				A0A9C1F8196C74A100105C85 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0A9C1CE196C740800105C85 /* HPTextViewTapGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				A0A9C1D1196C740800105C85 /* HPTextViewTapGestureRecognizer.h */,
+				A0A9C1D3196C740800105C85 /* HPTextViewTapGestureRecognizer.m */,
+				A0A9C1CF196C740800105C85 /* Supporting Files */,
+			);
+			path = HPTextViewTapGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		A0A9C1CF196C740800105C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0A9C1D0196C740800105C85 /* HPTextViewTapGestureRecognizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0A9C1E2196C740800105C85 /* HPTextViewTapGestureRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0A9C1E8196C740800105C85 /* HPTextViewTapGestureRecognizerTests.m */,
+				A0A9C1E3196C740800105C85 /* Supporting Files */,
+			);
+			path = HPTextViewTapGestureRecognizerTests;
+			sourceTree = "<group>";
+		};
+		A0A9C1E3196C740800105C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0A9C1E4196C740800105C85 /* HPTextViewTapGestureRecognizerTests-Info.plist */,
+				A0A9C1E5196C740800105C85 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0A9C1FB196C74A100105C85 /* HPTextViewTapGestureRecognizerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A0A9C228196C7DEB00105C85 /* chihuahua@2x.jpg */,
+				A0A9C204196C74A100105C85 /* HPAppDelegate.h */,
+				A0A9C205196C74A100105C85 /* HPAppDelegate.m */,
+				A0A9C207196C74A100105C85 /* Main.storyboard */,
+				A0A9C20A196C74A100105C85 /* HPViewController.h */,
+				A0A9C20B196C74A100105C85 /* HPViewController.m */,
+				A0A9C20D196C74A100105C85 /* Images.xcassets */,
+				A0A9C1FC196C74A100105C85 /* Supporting Files */,
+			);
+			path = HPTextViewTapGestureRecognizerDemo;
+			sourceTree = "<group>";
+		};
+		A0A9C1FC196C74A100105C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0A9C1FD196C74A100105C85 /* HPTextViewTapGestureRecognizerDemo-Info.plist */,
+				A0A9C1FE196C74A100105C85 /* InfoPlist.strings */,
+				A0A9C201196C74A100105C85 /* main.m */,
+				A0A9C203196C74A100105C85 /* HPTextViewTapGestureRecognizerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0A9C1C8196C740800105C85 /* HPTextViewTapGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A9C1EC196C740800105C85 /* Build configuration list for PBXNativeTarget "HPTextViewTapGestureRecognizer" */;
+			buildPhases = (
+				A0A9C1C5196C740800105C85 /* Sources */,
+				A0A9C1C6196C740800105C85 /* Frameworks */,
+				A0A9C1C7196C740800105C85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPTextViewTapGestureRecognizer;
+			productName = HPTextViewTapGestureRecognizer;
+			productReference = A0A9C1C9196C740800105C85 /* libHPTextViewTapGestureRecognizer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A0A9C1D8196C740800105C85 /* HPTextViewTapGestureRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A9C1EF196C740800105C85 /* Build configuration list for PBXNativeTarget "HPTextViewTapGestureRecognizerTests" */;
+			buildPhases = (
+				A0A9C1D5196C740800105C85 /* Sources */,
+				A0A9C1D6196C740800105C85 /* Frameworks */,
+				A0A9C1D7196C740800105C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0A9C1E0196C740800105C85 /* PBXTargetDependency */,
+			);
+			name = HPTextViewTapGestureRecognizerTests;
+			productName = HPTextViewTapGestureRecognizerTests;
+			productReference = A0A9C1D9196C740800105C85 /* HPTextViewTapGestureRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0A9C1F5196C74A100105C85 /* HPTextViewTapGestureRecognizerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A9C225196C74A100105C85 /* Build configuration list for PBXNativeTarget "HPTextViewTapGestureRecognizerDemo" */;
+			buildPhases = (
+				A0A9C1F2196C74A100105C85 /* Sources */,
+				A0A9C1F3196C74A100105C85 /* Frameworks */,
+				A0A9C1F4196C74A100105C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPTextViewTapGestureRecognizerDemo;
+			productName = HPTextViewTapGestureRecognizerDemo;
+			productReference = A0A9C1F6196C74A100105C85 /* HPTextViewTapGestureRecognizerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0A9C1C1196C740800105C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hermes Pique";
+				TargetAttributes = {
+					A0A9C1D8196C740800105C85 = {
+						TestTargetID = A0A9C1F5196C74A100105C85;
+					};
+				};
+			};
+			buildConfigurationList = A0A9C1C4196C740800105C85 /* Build configuration list for PBXProject "HPTextViewTapGestureRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0A9C1C0196C740800105C85;
+			productRefGroup = A0A9C1CA196C740800105C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0A9C1C8196C740800105C85 /* HPTextViewTapGestureRecognizer */,
+				A0A9C1D8196C740800105C85 /* HPTextViewTapGestureRecognizerTests */,
+				A0A9C1F5196C74A100105C85 /* HPTextViewTapGestureRecognizerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0A9C1D7196C740800105C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A9C1E7196C740800105C85 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A9C1F4196C74A100105C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A9C229196C7DEB00105C85 /* chihuahua@2x.jpg in Resources */,
+				A0A9C20E196C74A100105C85 /* Images.xcassets in Resources */,
+				A0A9C200196C74A100105C85 /* InfoPlist.strings in Resources */,
+				A0A9C209196C74A100105C85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0A9C1C5196C740800105C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A9C1D4196C740800105C85 /* HPTextViewTapGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A9C1D5196C740800105C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A9C1E9196C740800105C85 /* HPTextViewTapGestureRecognizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A9C1F2196C74A100105C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A9C20C196C74A100105C85 /* HPViewController.m in Sources */,
+				A0A9C206196C74A100105C85 /* HPAppDelegate.m in Sources */,
+				A0A9C227196C7B7E00105C85 /* HPTextViewTapGestureRecognizer.m in Sources */,
+				A0A9C202196C74A100105C85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0A9C1E0196C740800105C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0A9C1C8196C740800105C85 /* HPTextViewTapGestureRecognizer */;
+			targetProxy = A0A9C1DF196C740800105C85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0A9C1E5196C740800105C85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A9C1E6196C740800105C85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0A9C1FE196C74A100105C85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A9C1FF196C74A100105C85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0A9C207196C74A100105C85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A9C208196C74A100105C85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0A9C1EA196C740800105C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0A9C1EB196C740800105C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0A9C1ED196C740800105C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HPTextViewTapGestureRecognizer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPTextViewTapGestureRecognizer/HPTextViewTapGestureRecognizer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A0A9C1EE196C740800105C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HPTextViewTapGestureRecognizer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPTextViewTapGestureRecognizer/HPTextViewTapGestureRecognizer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A0A9C1F0196C740800105C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HPTextViewTapGestureRecognizerDemo.app/HPTextViewTapGestureRecognizerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPTextViewTapGestureRecognizer/HPTextViewTapGestureRecognizer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HPTextViewTapGestureRecognizerTests/HPTextViewTapGestureRecognizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A0A9C1F1196C740800105C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HPTextViewTapGestureRecognizerDemo.app/HPTextViewTapGestureRecognizerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPTextViewTapGestureRecognizer/HPTextViewTapGestureRecognizer-Prefix.pch";
+				INFOPLIST_FILE = "HPTextViewTapGestureRecognizerTests/HPTextViewTapGestureRecognizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		A0A9C221196C74A100105C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPTextViewTapGestureRecognizerDemo/HPTextViewTapGestureRecognizerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HPTextViewTapGestureRecognizerDemo/HPTextViewTapGestureRecognizerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0A9C222196C74A100105C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPTextViewTapGestureRecognizerDemo/HPTextViewTapGestureRecognizerDemo-Prefix.pch";
+				INFOPLIST_FILE = "HPTextViewTapGestureRecognizerDemo/HPTextViewTapGestureRecognizerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0A9C1C4196C740800105C85 /* Build configuration list for PBXProject "HPTextViewTapGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A9C1EA196C740800105C85 /* Debug */,
+				A0A9C1EB196C740800105C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A9C1EC196C740800105C85 /* Build configuration list for PBXNativeTarget "HPTextViewTapGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A9C1ED196C740800105C85 /* Debug */,
+				A0A9C1EE196C740800105C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A9C1EF196C740800105C85 /* Build configuration list for PBXNativeTarget "HPTextViewTapGestureRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A9C1F0196C740800105C85 /* Debug */,
+				A0A9C1F1196C740800105C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A9C225196C74A100105C85 /* Build configuration list for PBXNativeTarget "HPTextViewTapGestureRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A9C221196C74A100105C85 /* Debug */,
+				A0A9C222196C74A100105C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0A9C1C1196C740800105C85 /* Project object */;
+}
