@@ -34,19 +34,9 @@
 {
     [super viewDidLoad];
     self.textView.editable = NO; // Not required. Used to simplify the example interaction.
-    self.textViewTapGestureRecognizer.delegate = self;
-    
-    NSMutableAttributedString *attributedText = [NSMutableAttributedString new];
-    [attributedText appendAttributedString:[[NSAttributedString alloc] initWithString:@"This is "]];
-    [attributedText appendAttributedString:[self attributedLinkWithText:@"HPTextViewTapGestureRecognizer" URLString:@"https://github.com/hpique/HPTextViewTapGestureRecognizer"]];
-    [attributedText appendAttributedString:[[NSAttributedString alloc] initWithString:@" by "]];
-    [attributedText appendAttributedString:[self attributedLinkWithText:@"@hpique" URLString:@"https://github.com/hpique"]];
-    [attributedText appendAttributedString:[[NSAttributedString alloc] initWithString:@". It can detect taps on links and attachments.\n\nHere's a picture of a chihuahua:\n\n"]];
-    NSTextAttachment *textAttachment = [NSTextAttachment new];
-    textAttachment.image = [UIImage imageNamed:@"chihuahua.jpg"];
-    [attributedText appendAttributedString:[NSAttributedString attributedStringWithAttachment:textAttachment]];
-    
-    self.textView.attributedText = attributedText;
+    self.textViewTapGestureRecognizer.delegate = self; // This can also be done in Interface Builder. Done here just to be explicit .
+
+    self.textView.attributedText = [self sampleAttributedString];
 }
 
 -(void)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer handleTapOnURL:(NSURL*)URL inRange:(NSRange)characterRange
@@ -56,11 +46,25 @@
 
 -(void)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer handleTapOnTextAttachment:(NSTextAttachment*)textAttachment inRange:(NSRange)characterRange
 {
-    NSURL *chihuahuaURL = [NSURL URLWithString:@"https://flic.kr/p/adh8TT"];
-    [[UIApplication sharedApplication] openURL:chihuahuaURL];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:nil message:NSLocalizedString(@"Woof!", @"") delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", @"") otherButtonTitles:nil];
+    [alertView show];
 }
 
 #pragma mark Utils
+
+- (NSAttributedString*)sampleAttributedString
+{
+    NSMutableAttributedString *attributedText = [NSMutableAttributedString new];
+    [attributedText appendAttributedString:[[NSAttributedString alloc] initWithString:@"This is "]];
+    [attributedText appendAttributedString:[self attributedLinkWithText:@"HPTextViewTapGestureRecognizer" URLString:@"https://github.com/hpique/HPTextViewTapGestureRecognizer"]];
+    [attributedText appendAttributedString:[[NSAttributedString alloc] initWithString:@" by "]];
+    [attributedText appendAttributedString:[self attributedLinkWithText:@"@hpique" URLString:@"https://github.com/hpique"]];
+    [attributedText appendAttributedString:[[NSAttributedString alloc] initWithString:@". It can detect taps on links and attachments.\n\nHere's a picture of a chihuahua:\n\n"]];
+    NSTextAttachment *textAttachment = [NSTextAttachment new];
+    textAttachment.image = [UIImage imageNamed:@"chihuahua.jpg"];
+    [attributedText appendAttributedString:[NSAttributedString attributedStringWithAttachment:textAttachment]];
+    return attributedText;
+}
 
 - (NSAttributedString*)attributedLinkWithText:(NSString*)text URLString:(NSString*)URLString
 {
