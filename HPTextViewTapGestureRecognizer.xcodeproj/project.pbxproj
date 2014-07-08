@@ -55,7 +55,6 @@
 /* Begin PBXFileReference section */
 		A0A9C1C9196C740800105C85 /* libHPTextViewTapGestureRecognizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHPTextViewTapGestureRecognizer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A9C1CC196C740800105C85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A0A9C1D0196C740800105C85 /* HPTextViewTapGestureRecognizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HPTextViewTapGestureRecognizer-Prefix.pch"; sourceTree = "<group>"; };
 		A0A9C1D1196C740800105C85 /* HPTextViewTapGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPTextViewTapGestureRecognizer.h; sourceTree = "<group>"; };
 		A0A9C1D3196C740800105C85 /* HPTextViewTapGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPTextViewTapGestureRecognizer.m; sourceTree = "<group>"; };
 		A0A9C1D9196C740800105C85 /* HPTextViewTapGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPTextViewTapGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,7 +156,6 @@
 		A0A9C1CF196C740800105C85 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A0A9C1D0196C740800105C85 /* HPTextViewTapGestureRecognizer-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -456,7 +454,6 @@
 			buildSettings = {
 				DSTROOT = /tmp/HPTextViewTapGestureRecognizer.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HPTextViewTapGestureRecognizer/HPTextViewTapGestureRecognizer-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -468,7 +465,6 @@
 			buildSettings = {
 				DSTROOT = /tmp/HPTextViewTapGestureRecognizer.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HPTextViewTapGestureRecognizer/HPTextViewTapGestureRecognizer-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -478,14 +474,12 @@
 		A0A9C1F0196C740800105C85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HPTextViewTapGestureRecognizerDemo.app/HPTextViewTapGestureRecognizerDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HPTextViewTapGestureRecognizer/HPTextViewTapGestureRecognizer-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -500,14 +494,12 @@
 		A0A9C1F1196C740800105C85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HPTextViewTapGestureRecognizerDemo.app/HPTextViewTapGestureRecognizerDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HPTextViewTapGestureRecognizer/HPTextViewTapGestureRecognizer-Prefix.pch";
 				INFOPLIST_FILE = "HPTextViewTapGestureRecognizerTests/HPTextViewTapGestureRecognizerTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
