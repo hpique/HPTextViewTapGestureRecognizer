@@ -5,6 +5,8 @@ HPTextViewTapGestureRecognizer
 
 A gesture recognizer to detect taps on links and text attachments.
 
+If you're using the most excellent [TTTAttributedLabel](https://github.com/mattt/TTTAttributedLabel) just for the links, you might want to give this a look instead. 
+
 ##Installation
 
 Using [CocoaPods](http://cocoapods.org/):
@@ -22,15 +24,11 @@ Add a `HPTextViewTapGestureRecognizer` to your `UITextView`, set the recognizer 
 ```objective-c
 -(void)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer 
           handleTapOnURL:(NSURL*)URL
-                 inRange:(NSRange)characterRange
-{
-}
+                 inRange:(NSRange)characterRange { }
 
 -(void)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer
 handleTapOnTextAttachment:(NSTextAttachment*)textAttachment
-                 inRange:(NSRange)characterRange
-{
-}
+                 inRange:(NSRange)characterRange { }
 ```
 
 ##Requirements
