@@ -20,11 +20,15 @@ Or add the files from the [HPTextViewTapGestureRecognizer](https://github.com/hp
 Add a `HPTextViewTapGestureRecognizer` to your `UITextView`, set the recognizer delegate and implement the following delegate methods:
 
 ```objective-c
--(void)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer handleTapOnURL:(NSURL*)URL inRange:(NSRange)characterRange
+-(void)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer 
+          handleTapOnURL:(NSURL*)URL
+                 inRange:(NSRange)characterRange
 {
 }
 
--(void)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer handleTapOnTextAttachment:(NSTextAttachment*)textAttachment inRange:(NSRange)characterRange
+-(void)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer
+handleTapOnTextAttachment:(NSTextAttachment*)textAttachment
+                 inRange:(NSRange)characterRange
 {
 }
 ```
