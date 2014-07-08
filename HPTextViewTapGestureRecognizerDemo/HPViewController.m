@@ -39,6 +39,8 @@
     self.textView.attributedText = [self sampleAttributedString];
 }
 
+#pragma mark HPTextViewTapGestureRecognizerDelegate
+
 -(void)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer handleTapOnURL:(NSURL*)URL inRange:(NSRange)characterRange
 {
     [[UIApplication sharedApplication] openURL:URL];
