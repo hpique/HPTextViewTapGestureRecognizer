@@ -51,7 +51,7 @@ HPReorderTableView requires iOS 7.0 or above and ARC.
  See the License for the specific language governing permissions and
  limitations under the License.
  
-Here's a Chihuahua picture: 
+Here's a picture of a Chihuahua: 
  
 [![Chihuahua](https://raw.githubusercontent.com/hpique/HPTextViewTapGestureRecognizer/master/HPTextViewTapGestureRecognizerDemo/chihuahua@2x.jpg)](https://flic.kr/p/adh8TT)
 
