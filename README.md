@@ -19,7 +19,7 @@ Or add the files from the [HPTextViewTapGestureRecognizer](https://github.com/hp
 
 ##Usage
 
-Add a `HPTextViewTapGestureRecognizer` to your `UITextView`, set the recognizer delegate and implement the following delegate methods:
+Add a `HPTextViewTapGestureRecognizer` to your `UITextView`, set the recognizer delegate and implement the following optional delegate methods as needed:
 
 ```objective-c
 -(void)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer 
