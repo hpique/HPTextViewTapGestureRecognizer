@@ -55,3 +55,4 @@ Here's a picture of a Chihuahua:
  
 [![Chihuahua](https://raw.githubusercontent.com/hpique/HPTextViewTapGestureRecognizer/master/HPTextViewTapGestureRecognizerDemo/chihuahua@2x.jpg)](https://flic.kr/p/adh8TT)
 
+[Chihuahua picture](https://flic.kr/p/adh8TT) &copy; Michael Holden, used under a [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/) license.
