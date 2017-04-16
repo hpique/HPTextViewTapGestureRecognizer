@@ -7,7 +7,7 @@ A gesture recognizer to detect taps on links and text attachments.
 
 If you're using the most excellent [TTTAttributedLabel](https://github.com/mattt/TTTAttributedLabel) just for the links, you might want to give this a look instead. 
 
-##Installation
+## Installation
 
 Using [CocoaPods](http://cocoapods.org/):
 
@@ -17,7 +17,7 @@ pod 'HPTextViewTapGestureRecognizer', '~> 0.1'
 
 Or add the files from the [HPTextViewTapGestureRecognizer](https://github.com/hpique/HPTextViewTapGestureRecognizer/tree/master/HPTextViewTapGestureRecognizer) directory if you're doing it manually.
 
-##Usage
+## Usage
 
 Add a `HPTextViewTapGestureRecognizer` to your `UITextView`, set the recognizer delegate and implement the following optional delegate methods as needed:
 
@@ -31,11 +31,11 @@ handleTapOnTextAttachment:(NSTextAttachment*)textAttachment
                  inRange:(NSRange)characterRange { }
 ```
 
-##Requirements
+## Requirements
 
 HPReorderTableView requires iOS 7.0 or above and ARC. 
 
-##License
+## License
 
  Copyright 2014 Hermes Pique ([@hpique](https://twitter.com/hpique))
  
